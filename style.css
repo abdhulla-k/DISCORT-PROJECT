@@ -16,7 +16,7 @@ body {
 /* header */
 .background {
     background-image: url(./images/Screenshot\ from\ 2022-08-09\ 21-37-38.png);
-    min-height: 626px;
+    min-height: 538px;
 }
 
 .logo {
@@ -43,3 +43,138 @@ body {
 }
 
 /* /header */
+
+/* first section */
+
+.first-section {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 423px;
+    color: white;
+}
+
+.h1 {
+    font-weight: 1000;
+    font-size: 4rem;
+    margin-top: 2em;
+}
+
+.my-button {
+    border-radius: 100px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.btn-light:hover {
+    color: blue;
+    background: white;
+}
+
+.btn-light:hover .download-icon {
+    color: blue;
+}
+
+.download-icon {
+    color: black;
+    font-size: 18px;
+    margin-right: 8px;
+} 
+
+.first-desc {
+    line-height: 2em;
+}
+/* /first section */
+
+
+@media screen and ( min-width: 0px ) and ( max-width: 992px ) {
+    .h1 {
+        font-weight: 1000;
+        font-size: 3rem;
+        margin-top: 1em;
+    }
+
+    .first-section {
+        background-repeat: no-repeat;
+        height: 423px;
+        color: white;
+    }
+    
+    .first-desc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .my-button {
+        border-radius: 100px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and ( min-width: 992px ) and ( max-width: 5000px) {
+    .h1 {
+        font-weight: 1000;
+        margin-top: 1em;
+        font-size: 4rem;
+        margin-top: 2em;
+    }
+
+    .first-section {
+        background-repeat: no-repeat;
+        height: 423px;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+    
+    .first-desc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button-container {
+        display: inline-flex;
+        margin-top: 10px;
+    }
+}
+
+@media screen and ( min-width: 765px) and ( max-width: 992px ) {
+    .background {
+        /* background: blue; */
+        min-height: 550;
+        background: blue;
+        width: 100%;
+        background-image: 
+            url( ./images/8a8375ab7908384e1fd6efe408284203.svg),
+            url( ./images/e6d57714479874c665b36c7adee76b1d.svg );
+        background-position-x: right;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .first-section {
+        background-repeat: no-repeat;
+        height: 550px;
+        color: white;
+    }
+}
+
+@media screen and ( min-width: 0px) and ( max-width: 765px ) {
+    .background {
+        /* background: blue; */
+        min-height: 650;
+        background: blue;
+        width: 100%;
+        background-size: 500px;
+        background-image: 
+            url( ./images/8a8375ab7908384e1fd6efe408284203.svg);
+        background-position-x: center;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .first-section {
+        background-repeat: no-repeat;
+        height: 550px;
+        color: white;
+    }
+}

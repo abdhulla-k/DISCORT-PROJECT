@@ -1,160 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap'); */
+@font-face {
+    font-family: MainFont;
+    src: url(./font/whitneybold-webfont.woff2);
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
 /* header */
-
-.header-container {
-    width: 64%;
-    height: 80px;
-    margin-left: 18%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo-container {
-    display: flex;
+.background {
+    background-image: url(./images/Screenshot\ from\ 2022-08-09\ 21-37-38.png);
+    min-height: 626px;
 }
 
 .logo {
-    font-size: 30px;
     color: white;
-    margin-top: 25px;
-}
-
-header h1 {
-    margin: 0;
-    padding-top: 20px;
-    margin-left: 2px;
-}
-
-.logo-text {
-    padding-left: 5px;
-    color: white;
-    font-size: 26px;
-}
-
-.header-links-container {
-    padding-top: 16px;   
-    width: 500px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    grid-gap: 10px;
-    list-style: none;
-}
-
-li :hover {
-    text-decoration: underline;
+    width: 8rem;
+    
 }
 
 .header-link {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-}
-
-.header-button {
-    margin-top: 28px;
-    text-align: center;
-}
-
-.login-button-background {
-    background: white;
-    border-radius: 50px;
-    width: 50px;
-    padding: 7px 0px 8px 0px;
-}
-
-.login-button {
-    text-decoration: none;
-    color: black;
     font-size: 15px;
-    width: 50px;
+    font-family: MainFont;
+}
+
+.nav-item :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.humberger {
+    color: white;
+    cursor: pointer;
 }
 
 /* /header */
-
-/* first section */
-
-.first-section {
-    background-image: url( "./images/Screenshot\ from\ 2022-08-09\ 21-37-38.png" );
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 616px;
-    text-align: center;
-    align-items: center;
-    color: white;
-}
-
-.first-description {
-    display: flex;
-    flex-direction: column;
-    padding-top: 72px;
-}
-
-.first-description h1 {
-    font-family: 'Rubik Dirt', cursive;
-    color: white;
-    margin-bottom: 10px;
-    font-size: 70px;
-}
-
-.first-dec-text {
-    line-height: 2em;
-    font-size: 1.2em;
-}
-
-.section1-buttons {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    padding: 40px;
-}
-
-
-.center-keeper {
-    width: 38%;
-}
-
-.buttons {
-    background: white;
-    height: 50px;
-    margin-right: 20px;
-    border: 0px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 25px;
-    font-size: 15px;
-    /* transition: 2s; */
-}
-
-.button-2-div :hover {
-    box-shadow: 2px 2px 10px rgb(37, 36, 36);
-    background: rgb(37, 36, 36);
-}
-
-.buttons:hover {
-    color: blue;
-    box-shadow: 2px 2px 10px rgb(37, 36, 36);
-}
-.buttons:hover .download-icon{
-    color: blue;
-}
-.button-2 {
-    background: black;
-    color: white;
-    height: 50px;
-    margin-right: 20px;
-    border: 0px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 25px;
-    font-size: 15px;
-}
-
-.download-icon {
-    color: black;
-    font-size: 18px;
-    margin-right: 8px;
-}
-/* /first section */

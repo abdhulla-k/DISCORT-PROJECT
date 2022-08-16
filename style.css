@@ -214,6 +214,36 @@ body {
 }
 /* /second section */
 
+/* footer */
+footer {
+    width: 100%;
+}
+.footer-container {
+    background: #23272a;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.footer-heading {
+    color:#5865f2;
+}
+
+.btn-signup {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.footer-second {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-grid-head {
+    color: #5865f2;
+}
+/* /footer */
+
 @media screen and ( min-width: 0px ) and ( max-width: 992px ) {
     .h1 {
         font-weight: 1000;

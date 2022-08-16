@@ -187,8 +187,28 @@ body {
 .first-desc {
     line-height: 2em;
 }
-/* /first section */
+/* /first section */    
 
+/* second section */    
+.second-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.description-second {
+    padding-top: 30px;
+}
+
+.second-desc-cond {
+    margin-top: 20px;
+    width: 400px;
+}
+
+.second-heading {
+    font-size: 3em;
+    font-weight: 700;
+}
+/* /second section */
 
 @media screen and ( min-width: 0px ) and ( max-width: 992px ) {
     .h1 {
@@ -211,6 +231,11 @@ body {
     .my-button {
         border-radius: 100px;
         margin-top: 10px;
+    }
+
+    .second-desc-cond {
+        margin-top: 20px;
+        width: auto;
     }
 }
 
@@ -260,6 +285,11 @@ body {
         height: 550px;
         color: white;
     }
+
+    .second-heading {
+        font-size: 2em;
+        font-weight: 700;
+    }
 }
 
 @media screen and ( min-width: 0px) and ( max-width: 765px ) {
@@ -278,7 +308,16 @@ body {
 
     .first-section {
         background-repeat: no-repeat;
-        height: 550px;
+        height: 750px;
         color: white;
+    }
+
+    .second-desc-cond {
+        margin-top: 0px;
+    }
+
+    .second-heading {
+        font-size: 23px;
+        font-weight: 700;
     }
 }

@@ -190,7 +190,7 @@ body {
 /* /first section */    
 
 /* second section */    
-.second-section {
+.all-sections {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -199,12 +199,12 @@ body {
     padding-top: 30px;
 }
 
-.second-desc-cond {
+.section-desc-cond {
     margin-top: 20px;
     width: 400px;
 }
 
-.second-heading {
+.section-heading {
     font-size: 3em;
     font-weight: 700;
 }
@@ -233,7 +233,7 @@ body {
         margin-top: 10px;
     }
 
-    .second-desc-cond {
+    .section-desc-cond {
         margin-top: 20px;
         width: auto;
     }
@@ -286,7 +286,7 @@ body {
         color: white;
     }
 
-    .second-heading {
+    .section-heading {
         font-size: 2em;
         font-weight: 700;
     }
@@ -312,11 +312,11 @@ body {
         color: white;
     }
 
-    .second-desc-cond {
+    .section-desc-cond {
         margin-top: 0px;
     }
 
-    .second-heading {
+    .section-heading {
         font-size: 23px;
         font-weight: 700;
     }

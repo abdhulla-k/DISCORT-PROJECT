@@ -21,118 +21,222 @@
           <!-- header -->
           <header>
 
-          <!-- Navbar-->
-          <nav class="navbar navbar-expand-lg">
-           <div class="container-fluid justify-content-between">
-
-             <!-- Left elements -->
-             <div class="d-flex">
-               <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
-
-                 <!-- logo -->
-                 <div class="logo">
-                     <img class="logo" src="./images/Discord-Logo+Wordmark-White.png" alt="">
+              <!-- Navbar-->
+              <nav class="navbar navbar-expand-lg">
+               <div class="container-fluid justify-content-between">
+    
+                 <!-- Left elements -->
+                 <div class="d-flex">
+                   <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+    
+                     <!-- logo -->
+                     <div class="logo">
+                         <img class="logo" src="./images/Discord-Logo+Wordmark-White.png" alt="">
+                     </div>
+                     <!-- /logo -->
+    
+                   </a>
                  </div>
-                 <!-- /logo -->
+                 <!-- Left elements -->
+             
+                 <!-- Center elements -->
+                 <ul class="navbar-nav flex-row d-none d-lg-flex">
+    
+                   <li class="nav-item me-3 me-lg-1 active">
+                     <a class="nav-link header-link" href="#">
+                       Discover
+                     </a>
+                   </li>
+    
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Download
+                     </a>
+                   </li>
+    
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Nitro
+                     </a>
+                   </li>
+    
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Discover
+                     </a>
+                   </li>
+             
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Safety
+                     </a>
+                   </li>
+             
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Support
+                     </a>
+                   </li>
+             
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Blog
+                     </a>
+                   </li>
+             
+                   <li class="nav-item me-3 me-lg-1">
+                     <a class="nav-link header-link" href="#">
+                       Careers
+                     </a>
+                   </li>
+    
+                 </ul>
+                 <!-- Center elements -->
+             
+                 <!-- Right elements -->
+                 <ul class="navbar-nav flex-row">
+                    <li class=" dropdown me-3 me-lg-1">
+                     <a>
+                     <button class="btn btn-light" style="border-radius: 100px; width: 4rem;">Login</button>
+                     </a>
+                    </li>
+    
+                    <li class="d-block d-lg-none nav-item dropdown me-3 me-lg-1">
+                     <a onclick="openNav()">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list humberger" viewBox="0 0 16 16">
+                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                       </svg>
+                     </a>
+                    </li>
+                 </ul>
+                 <!-- Right elements -->
+               </div>
+              </nav>
+              <!-- /Navbar -->
+    
+              <!-- side nav -->
+              <div id="mySidenav" class="sidenav">
+                <div>
+                  <img class="side-nav-logo" src="./images/black_discord.png">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <hr>
+                </div>
+                <a href="#">Home</a>
+                <a href="#">Download</a>
+                <a href="#">Nitro</a>
+                <a href="#">Discover</a>
+                <a onclick="safty()" href="#">Safty &#8594;</a>
+                <a onclick="academy()" href="#">Mod Academy &#8594;</a>
+                <a href="#">Support</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+              </div>
+              <!-- /side nav -->
+    
+              <!-- swafty route. a section under sidebar -->
+              <div id="swafty" class="swafty-page">
+                <div>
+                  <a href="javascript:void(0)" class="swafty-back-button" onclick="saftyClose()">&#8592; back</a>
+                  <a href="javascript:void(0)" class="closebtn-swafty" onclick="closeNav()">&times;</a>
+                  <hr>
+                </div>
 
-               </a>
-             </div>
-             <!-- Left elements -->
-         
-             <!-- Center elements -->
-             <ul class="navbar-nav flex-row d-none d-lg-flex">
+                <div>
+                  <span class="h4">Controlling Your Experience</span>
+                  <br>
+                  <p>
+                    Four steps to a super safe account <br><br>
+                    Four steps to a super safe server <br><br>
+                    Role of administrators and moderators on Discord <br><br>
+                    Reporting problems to Discord <br><br>
+                    Mental health on Discord <br><br>
+                    Age-Restricted Content on Discord <br><br>
+                    Tips against spam and hacking <br><br>
+                  </p>
+                  <hr>
+                </div>
 
-               <li class="nav-item me-3 me-lg-1 active">
-                 <a class="nav-link header-link" href="#">
-                   Discover
-                 </a>
-               </li>
+                <div>
+                  <span class="h4">Parents & Educators</span>
+                  <br>
+                  <p>
+                    What is Discord?  <br><br>
+                    Discord's commitment to a safe and trusted experience <br><br>
+                    Helping your teen stay safe on Discord <br><br>
+                    Talking about online safety with your teen <br><br>
+                  </p>
+                  <hr>
+                </div>
+              </div>
+              <!-- /swafty route. a section under sidebar -->
 
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Download
-                 </a>
-               </li>
+              <!-- mode academy route. a section under sidebar -->
+              <div id="mode-academy" class="swafty-page">
+                <div>
+                  <a href="javascript:void(0)" class="swafty-back-button" onclick="academyClose()">&#8592; back</a>
+                  <a href="javascript:void(0)" class="closebtn-swafty" onclick="closeNav()">&times;</a>
+                </div>
 
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Nitro
-                 </a>
-               </li>
+                <div>
+                  <span class="h4">Moderator Academy</span>
+                  <br>
+                  <hr>
+                </div>
 
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Discover
-                 </a>
-               </li>
-         
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Safety
-                 </a>
-               </li>
-         
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Support
-                 </a>
-               </li>
-         
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Blog
-                 </a>
-               </li>
-         
-               <li class="nav-item me-3 me-lg-1">
-                 <a class="nav-link header-link" href="#">
-                   Careers
-                 </a>
-               </li>
+                <div>
+                  <span class="h4">Basics</span>
+                  <br>
+                  <p>
+                    100: An Intro to the DMA <br><br>
+                    103: Basic Channel Setup <br><br>
+                    104: How to Report Content to Discord <br><br>
+                    110: Moderator Etiquette <br><br>
+                    111: Your Responsibilities as a Moderator <br><br>
+                  </p>
+                  <hr>
+                </div>
 
-             </ul>
-             <!-- Center elements -->
-         
-             <!-- Right elements -->
-             <ul class="navbar-nav flex-row">
-               <li class=" dropdown me-3 me-lg-1">
-                 <a>
-                 <button class="btn btn-light" style="border-radius: 100px; width: 4rem;">Login</button>
-                 </a>
-              </li>
+                <div>
+                  <span class="h4">Setup and Function</span>
+                  <br>
+                  <p>
+                    201: Permissions on Discord <br><br>
+                    202: Handling Difficult Scenarios <br><br>
+                    203: Developing Server Rules <br><br>
+                    204: Ban Appeals <br><br>
+                    205: Utilizing Role Colors <br><br>
+                    206: Best Practices for Reporting Tools <br><br>
+                    210: Moderator Recruitment <br><br>
+                  </p>
+                  <hr>
+                </div>
 
-               <li class="d-block d-lg-none nav-item dropdown me-3 me-lg-1">
-                 <a onclick="openNav()">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list humberger" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                   </svg>
-                 </a>
-              </li>
-             </ul>
-             <!-- Right elements -->
-           </div>
-         </nav>
-         <!-- /Navbar -->
+                <div>
+                  <span class="h4">Advanced Community Management</span>
+                  <br>
+                  <p>                
+                    301: Implementing Verification Gates <br><br>
+                    302: Developing Moderator Guidelines <br><br>
+                    303: Facilitating Positive Environments <br><br>
+                    310: Managing Moderation Teams <br><br>
+                    311: Understanding and Avoiding Moderator Burnout <br><br>
+                    312: Internal Conflict Resolution <br><br>
+                    313: How to Moderate Voice Channels <br><br>
+                    314: Training and Onboarding New Moderators <br><br>
+                    321: Auto Moderation in Discord <br><br>
+                    322: Usage and Benefits of Webhooks and Embeds  <br><br>
+                    323: Usage of XP Systems <br><br>
+                    331: Community Engagement <br><br>
+                    332: Fostering Healthy Communities <br><br>
+                    333: Planning Community Events <br><br>
+                    334: Community Partnerships <br><br>
+                    341: Understanding Your Community Through Insights <br><br>
 
-          <!-- side nav -->
-          <div id="mySidenav" class="sidenav">
-            <div>
-              <img class="side-nav-logo" src="./images/black_discord.png">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <hr>
-            </div>
-            <a href="#">Home</a>
-            <a href="#">Download</a>
-            <a href="#">Nitro</a>
-            <a href="#">Discover</a>
-            <a href="#">Safty</a>
-            <a href="#">Mod Academy</a>
-            <a href="#">Support</a>
-            <a href="#">Blog</a>
-            <a href="#">Careers</a>
-          </div>
-          <!-- /side nav -->
-
+                  </p>
+                  <hr>
+                </div>
+              </div>
+              <!-- /mode academy route. a section under sidebar -->
           </header>
           <!-- /header -->
 
